@@ -1,0 +1,86 @@
+.container {
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 'nav nav nav nav' 'redBox redBox  redBox redBox' 'firstItem firstItem  firstItem firstItem' 'secondItem secondItem secondItem secondItem' 'thirdItem thirdItem thirdItem thirdItem' 'halfBox1 halfBox1  halfBox2 halfBox2' 'halfBox3 halfBox3  halfBox4 halfBox4' 'halfBox5 halfBox5  halfBox6 halfBox6' 'footer footer footer footer';
+}
+
+.red-box {
+    grid-area: redBox;
+    background-color: #E34140;
+    height: 12vh;
+}
+
+.first-box {
+    grid-area: firstItem;
+    background-color: #EAF2FC;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.second-box {
+    grid-area: secondItem;
+    background-color: #FBFBFD;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.third-box {
+    grid-area: thirdItem;
+    background: url(../images/third-box-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.min-box1 {
+    grid-area: halfBox1;
+    background: url(../images/min-box1-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.min-box2 {
+    grid-area: halfBox2;
+    background: url(../images/min-box2-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.min-box3 {
+    grid-area: halfBox3;
+    background: url(../images/min-box3-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.min-box4 {
+    grid-area: halfBox4;
+    background: url(../images/min-box4-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.min-box5 {
+    grid-area: halfBox5;
+    background: url(../images/min-box5-img.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.min-box6 {
+    grid-area: halfBox6;
+    background: url(../images/background-min6.jpg) no-repeat center center/cover;
+    height: 80vh;
+    width: 49vw;
+    margin-bottom: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    height: 100vh;
+    background-color: #F5F5F7;
+}

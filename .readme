@@ -1,0 +1,46 @@
+i started the project by building the nav bar first {
+    1)building the nav bar template using flex
+    2) making it sticky and fixed
+    3) filling the content with flex 
+    4)taking colors and fonts from the real website
+    5) achiving the same effectt when hovering 
+    6) centering things 
+    7) search icon 
+    8) bag icon 
+    9)nav bar is ready 
+}
+after building the nav bar using grid template to build the template 
+of the web site witouth filling the images and the content {
+    1) building the template 
+    2) and indicaite how much from te vh it will take 
+    3) using gap 
+    4)using border
+    5) butlding the template in the file template css.
+}// this section is like blueprint for the website with this we know where everything need to be 
+
+after bulding the template i will start by inserting the content box by box
+red box 
+{
+  1)inserting the content with p tag 
+  2) inserting link of shop now
+  3) addin the > symbol 
+  4) cetnter things using flex 
+  5) //this things will be found in style css under the red box
+}
+
+now we are doing the first box {
+    inserting images and headers with right color and font 
+    dividing the box to divs and using flex to control them
+    inserting images as backgrounds to these images
+}
+and continuing on with the other boxes 
+
+
+in the footer i divided it to thre main boxes with flex in direction 
+of column 
+in side the missle one five uls 
+
+
+
+
+

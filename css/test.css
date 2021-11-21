@@ -1,0 +1,27 @@
+.min-box3 {
+    grid-area: halfBox1;
+    background-color: #FBFBFD;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.min-box4 {
+    grid-area: halfBox2;
+    background-color: #F5F5F7;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.min-box5 {
+    grid-area: halfBox1;
+    background-color: #FBFBFD;
+    height: 80vh;
+    border: 2px solid black;
+}
+
+.min-box6 {
+    grid-area: halfBox2;
+    background-color: #F5F5F7;
+    height: 80vh;
+    border: 2px solid black;
+}
